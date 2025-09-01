@@ -14,15 +14,15 @@ cd <your-repo-folder>
 2. Package installation
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 3. Set up Google API credentials
 Create a .env file in the project root or set environment variables in your system:
 
 ```bash
-API_KEY = 'YOUR_API_KEY'
-CSE_ID = 'YOUR_CSE_ID'
+GOOGLE_API_KEY=YOUR_API_KEY
+GOOGLE_CSE_ID=YOUR_CSE_ID
 ```
 
 4. Run the Flask application
