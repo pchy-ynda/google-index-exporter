@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Google Index Exporter</title>
+    </head>
+    <body>
+        <h1>Google Index Exporter</h1>
+        <p>
+            Enter the domain name of a website to get a CSV file of all its pages currently indexed by Google. <br>
+            Do not include "https://" or "www".
+        </p>
+
+        <form action="/export" method="post">
+            <label for="domain">Enter domain:</label>
+            <input type="text" id="domain" name="domain" placeholder="example.com" required>
+            <button type="submit">Get Indexed Pages</button>
+        </form>
+    </body>
+</html>
