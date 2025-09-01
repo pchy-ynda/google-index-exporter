@@ -2,11 +2,8 @@ from flask import Flask, render_template, request
 import requests
 import pandas as pd
 
-# API_KEY = 'YOUR_API_KEY'
-# CSE_ID = 'YOUR_CSE_ID'
-
-API_KEY = 'AIzaSyB0V0d7kVA-JEBWJd6Glqi1O9xEMZuU6a4'
-CSE_ID = '31d13c4cbd3f9451b'
+API_KEY = 'YOUR_API_KEY'
+CSE_ID = 'YOUR_CSE_ID'
 
 app = Flask(__name__)
 
